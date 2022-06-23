@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+    <title>DM Interface</title>
+    <link
+    rel="stylesheet"
+    href="styles.css"
+    />
+</head>
+<body>
+    <h1>DUNGEON MASTER INTERFACE</h1>
+
+    <div id="initiatives">
+        <h2>Initiave Order</h2>
+        <div id="players">
+            <h3>Names:</h3>
+        </div>
+        <button class="add-player">+</button>
+        <button class="remove-player">-</button>
+        <button class="go-init" id="go">GO</button>
+        <div id="result">
+            <h2>Play Order:</h2>
+        </div>
+    </div>
+
+    <div id="dice-roller">
+        <h2>Dice Roller</h2>
+        <div class="dice-options"></div>
+        <button class="go-dice" id="go">GO</button>
+    </div>
+
+    <div id="enemy-info">
+        <h2>Enemies</h2>
+        <div class="enemy-types"></div>
+        <button class="new-enemy-type-button">Add New Enemy Type</button>
+    </div>
+
+    <div id="dm-notes">
+        <h2>DM Notes</h2>
+        <textarea rows="10" cols="30" id='notes-section'></textarea>
+    </div>
+    <p>NOTE: If you refresh the page, any info will be lost.</p>
+    <script src="index.js"></script>
+</body>

@@ -1,0 +1,40 @@
+#initiatives {
+    border: black 2px solid;
+    width: 300px;
+}
+
+#go {
+    background-color: rgb(63, 189, 63);
+}
+
+#dice-roller {
+    border: black 2px solid;
+    width: 300px;
+}
+
+.dice-results {
+    position: relative;
+    border: black 2px solid;
+    width: 300px;
+}
+
+.x-button {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+}
+
+#enemy-info {
+    border: black 2px solid;
+    width: 300px;
+}
+
+.type {
+    position: relative;
+    border: black 2px solid;
+}
+
+#dm-notes {
+    border: black 2px solid;
+    width: 300px;
+}
